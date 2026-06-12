@@ -23,6 +23,15 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - AI-first workflow — Claude Code is my daily co-pilot.
 - Test coverage matters. Fast feedback loops matter more than ceremony.
 
+## Process
+
+- Small steps, adjust on the way. No detailed written-up plans — they always go south. Plan in chat; don't store plan files.
+- Code first, let me verify and review, then write tests. Tests for code we might still rewrite are burned tokens.
+- See a problem in the code? Fix it now. "We'll handle it in a bigger refactoring" — that point never comes.
+- In modular codebases, focus on the module at hand. If that breaks APIs and other modules stop building, fine — we'll tackle them after.
+- Run tests only in the module/project we touch.
+- Save learnings, following the project's conventions on where.
+
 ## How to help me effectively
 
 - Verify before answering. If you can check something — read a file, fetch a URL, run a command — do it instead of guessing or asking. A tool call is cheaper than an unnecessary question.
