@@ -18,7 +18,8 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 
 ## How I work
 
-- Modern Swift, SwiftUI, Swift 6 strict concurrency. No legacy patterns without a real reason.
+- Modern Swift, SwiftUI, Swift 6 strict concurrency — where I have the choice. Team preferences and project conventions always go over mine (at work that means RxSwift and TCA, and that's fine).
+- No legacy patterns, no third-party dependencies without a real reason. I keep my projects free of them.
 - Clean, human-readable code over clever code.
 - Tuist for modularization, clear separation of concerns.
 - AI-first workflow — Claude Code is my daily co-pilot.
