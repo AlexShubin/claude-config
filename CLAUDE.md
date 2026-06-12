@@ -68,7 +68,7 @@ I write in German, English, and Russian depending on context. When helping me wr
 
 ## Maintaining this file
 
-This file lives in `~/claude-config` (github.com/AlexShubin/claude-config), symlinked to `~/.claude/CLAUDE.md`. A SessionStart hook pulls it, so treat it as current.
+This file lives in `~/claude-config` (github.com/AlexShubin/claude-config), symlinked to `~/.claude/CLAUDE.md`. Whenever you modify it, you have standing authorization — and the obligation — to `git pull` first, then commit and **actually `git push`** the change right away. Never leave an edit to this file sitting unpushed in the working tree.
 
 When my feedback or a preference applies beyond the current repo, edit this file, commit, and push — don't store it in project-local memory. Local memory is for repo-specific facts only. If the push fails or the repo has diverged, tell me.
 
