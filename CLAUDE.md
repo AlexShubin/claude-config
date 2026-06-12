@@ -49,6 +49,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 ## Git
 
 - Pull the base branch before creating a new branch off it.
+- Keep git clean: when manipulating branches, `git fetch --prune` and delete local branches whose remote is gone — that almost always means squash-merged.
 
 ## Writing (docs, tickets, PRs)
 
