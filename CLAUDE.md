@@ -53,7 +53,6 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 I write in German, English, and Russian depending on context. When helping me write:
 
 - Light polishing over heavy rewrites — keep my voice.
-- German: watch compound-noun hyphenation and subjunctive mood.
 
 ## Maintaining this file
 
