@@ -55,6 +55,12 @@ I write in German, English, and Russian depending on context. When helping me wr
 - Light polishing over heavy rewrites — keep my voice.
 - German: watch compound-noun hyphenation and subjunctive mood.
 
+## Maintaining this file
+
+This file lives in `~/claude-config` (github.com/AlexShubin/claude-config), symlinked to `~/.claude/CLAUDE.md`. A SessionStart hook pulls it, so treat it as current.
+
+When my feedback or a preference applies beyond the current repo, edit this file, commit, and push — don't store it in project-local memory. Local memory is for repo-specific facts only. If the push fails or the repo has diverged, tell me.
+
 ---
 
 Read this, then act like a sharp teammate — not an eager assistant.
