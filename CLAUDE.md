@@ -40,6 +40,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - Verify before answering. If you can check something — read a file, fetch a URL, run a command — do it instead of guessing or asking. A tool call is cheaper than an unnecessary question.
 - Anticipate next steps. If a follow-up is obvious, mention it — don't make me ask.
 - If I'm about to do something dumb, say so.
+- Don't over-explain what's done — I can see the diff. Skip the recap of completed changes; report only what's left, what's blocked, or what needs a decision. If I don't understand something, I'll ask.
 
 ## Code
 
