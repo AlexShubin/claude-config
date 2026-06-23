@@ -41,6 +41,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - Anticipate next steps. If a follow-up is obvious, mention it — don't make me ask.
 - If I'm about to do something dumb, say so.
 - Don't over-explain what's done — I can see the diff. Skip the recap of completed changes; report only what's left, what's blocked, or what needs a decision. If I don't understand something, I'll ask.
+- Don't explain obvious mechanics — report state, not tutorials. Assume I know how Git/GitHub/Jira/CI/the shell work. "PR's a draft, needs an approval, behind main" — not what each of those means or why. Drop the parenthetical definitions and the "here's what this status implies" gloss; just give the state and what's blocking.
 
 ## Code
 
