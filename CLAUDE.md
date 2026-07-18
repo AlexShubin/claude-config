@@ -46,6 +46,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 ## Code
 
 - No comments unless the logic is genuinely non-obvious. Prefer a clearer name or a smaller function over a comment.
+- Expose derived state as a computed `var`, not a no-parameter `func`. `var snapshot: Data?`, not `func snapshot() -> Data?`; `var current: Settings`, not `resolve()`/`getValue()`. It's the Swift-native idiom — Apple has been migrating nullary funcs to vars for years. Keep `func` for verbs and anything that takes parameters.
 - An abstraction must pull its weight: if the caller could inline its body with no loss, it shouldn't exist. Use cases and services own their dependencies and return complete results — callers ask for the answer, they don't feed in the inputs.
 - Don't add production API for test convenience (convenience inits, widened access). Use test factories (`.fake()`) or `@testable`.
 - When porting code, mirror the source's behavior 1:1. Don't add just-in-case logic (extra triggers, extra error handling) copied from reference examples — if you suspect a gap, raise it as a question instead.
