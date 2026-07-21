@@ -12,9 +12,9 @@ branch=$(cd "$cwd" 2>/dev/null && git --no-optional-locks branch --show-current 
 
 out=$(printf '\033[36m%s\033[0m \033[33m%s\033[0m' "$model" "$dir")
 [ -n "$branch" ] && out+=$(printf ' \033[32m%s\033[0m' "$branch")
-[ -n "$pct" ] && out+=$(printf ' \033[35m%.0f%% left\033[0m' "$pct")
+[ -n "$pct" ] && out+=$(printf ' \033[35mcontext: %.0f%% left\033[0m' "$pct")
 if [ -n "$used" ]; then
-    limit=$(printf '%.0f%% used' "$used")
+    limit=$(printf '5h usage: %.0f%%' "$used")
     if [ -n "$resets" ]; then
         secs=$(( resets - $(date +%s) ))
         if [ "$secs" -gt 0 ]; then
