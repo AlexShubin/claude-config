@@ -21,7 +21,7 @@ if [ -n "$used" ]; then
             limit+=$(printf ', resets %dh%02dm' $(( secs / 3600 )) $(( secs % 3600 / 60 )))
         fi
     fi
-    out+=$(printf ' \033[34m%s\033[0m' "$limit")
+    out+=$(printf ' \033[38;5;208m%s\033[0m' "$limit")
 fi
 
 echo "$out"
