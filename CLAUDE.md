@@ -61,7 +61,8 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 ## Writing (docs, tickets, PRs)
 
 - State what matters, drop what doesn't. Cut scope qualifiers ("regardless of X", "not only during Y") and lists of non-applicable cases. Shortest form that's still unambiguous.
-- Tickets: context, goal, success criteria, the work. Never write what is *not* in scope — this bans the inline sentence exactly as much as the "Out of scope"/"Follow-ups" section ("cards keep their current design here", "redesigned later in ABC-123", "replaces ABC-456 because…"). Don't name sibling tickets, restate what the epic or the links panel already shows, or justify the ticket's own scope. Surface all of that in chat instead.
+- Tickets: context, goal, success criteria, the work.
+- Never describe what's absent. This applies to everything I write — tickets, docs, PRs, code comments alike: no "Out of scope"/"Follow-ups" sections, and equally no inline prose doing the same job ("cards keep their current design here", "redesigned later in ABC-123", "replaces ABC-456 because…", a comment explaining why code *isn't* there). Don't name sibling tickets, restate what the epic or links panel already shows, or justify the artifact's own scope. Surface all of that in chat instead.
 - Requirements and clarifications go in the ticket description, never in comments.
 - When writing for another team or platform, lead with repro, expected vs. actual, and behavior — not my implementation details. Offer those as a follow-up.
 
