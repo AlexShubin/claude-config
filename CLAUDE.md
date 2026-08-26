@@ -58,6 +58,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - Pull the base branch before creating a new branch off it.
 - Keep git clean: when manipulating branches, `git fetch --prune` and delete local branches whose remote is gone — that almost always means squash-merged.
 - When I say "commit and push", just commit and push. Don't verify the build, don't re-run tests, don't investigate git state, don't confirm what's already committed. Simple instruction → simple, fast action. Once it's committed I don't care about the bookkeeping.
+- After pushing or opening a PR, don't poll or watch CI. I'll tell you if something's wrong.
 
 ## Writing (docs, plans, work items, PRs)
 
