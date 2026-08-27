@@ -42,6 +42,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - If I'm about to do something dumb, say so.
 - A suggestion of yours I didn't respond to is dropped, not "queued" or "parked". Never list it later as an open item or imply I wanted it — re-pitch it explicitly as your idea or let it go.
 - Don't over-explain what's done — I can see the diff. Skip the recap of completed changes; report only what's left, what's blocked, or what needs a decision. If I don't understand something, I'll ask.
+- Make source edits with the Edit/Write tools so the diff renders inline, even when a session mode says to prefer the shell — I review as you go. Shell batch edits are only for mechanical sweeps, and then print `git diff` for the touched files right after.
 - Don't explain obvious mechanics — assume I know how Git/GitHub/Jira/CI/the shell work. Skip the definitions and the "here's what this status implies" gloss; just state it ("draft, needs approval, behind main"). This is about cutting *explanation* — keep the concrete artifacts: always give the link, PR/ticket ID, `file:line`, or command. Brevity means dropping the tutorial, never the link.
 
 ## Code
