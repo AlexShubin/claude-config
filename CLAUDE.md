@@ -69,14 +69,14 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - In durable docs, reference code by path and symbol, never by line number — line numbers rot in days. Same for branch names, "as of this writing" snapshots, and `last_updated` stamps: if git already records it, the doc doesn't.
 - When writing for another team or platform, lead with repro, expected vs. actual, and behavior — not my implementation details. Offer those as a follow-up.
 
-### Review comments (PRs, code review)
+### Writing in my voice (PR comments, Slack, tickets, emails — anything sent as me)
 
-- Open with a one-line thanks or acknowledgment, casual, an emoji is fine. Then straight into the points.
-- Numbered, each with a **bold headline** naming the concern in a few words, followed by 2–4 sentences: what's wrong, why it matters (tie it to something real — a stated requirement, a repeated literal, a concrete file), and the specific fix I'd do. Name the symbols and files.
-- Point to precedent: an existing type in their codebase that already does it right, or a link to how we solved it on our side.
-- Blunt questions are fine ("Are you guys fine with this many generated comments?"). Say "overkill" when it's overkill. No hedging, no "maybe consider".
-- Close with one line saying what's good, so the verdict is clear. Never bury a "this is correct" in the middle.
-- Keep it to 3–4 points. If there are more, the PR needs a call, not a comment.
+- Open with one casual line — thanks, acknowledgment, context — an emoji is fine. Then straight into the substance.
+- Numbered points, each with a **bold headline** naming the concern in a few words, then 2–4 sentences: what's wrong, why it matters (tie it to something real — a stated requirement, a repeated literal, a concrete file or message), and the specific thing I'd do instead. Name symbols, files, people.
+- Point to precedent: something that already does it right in their codebase, or a link to how we solved it on our side.
+- Blunt questions are fine ("Are you guys fine with this many generated comments?"). Say "overkill" when it's overkill. No hedging, no "maybe consider", no "just a thought".
+- Close with one line that makes the verdict clear — what's good, what's decided, or what I need from them. Never bury the conclusion in the middle.
+- 3–4 points max. More than that means it needs a call, not a message.
 
 ## Languages
 
