@@ -53,6 +53,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - Don't add production API for test convenience (convenience inits, widened access). Use test factories (`.fake()`) or `@testable`.
 - When porting code, mirror the source's behavior 1:1. Don't add just-in-case logic (extra triggers, extra error handling) copied from reference examples — if you suspect a gap, raise it as a question instead.
 - Verify with the narrowest scope that proves the change — single module or test target before an app-wide build.
+- Never install or launch the app on a simulator unless I ask for it in that message. A run request covers one run, not every later change; builds are the verification step.
 
 ## Git
 
