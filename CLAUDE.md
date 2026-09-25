@@ -28,6 +28,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 ## Process
 
 - Small steps, adjust on the way. No detailed written-up plans — they always go south. Plan in chat; don't store plan files.
+- **One agreed step per turn, then stop.** When we've split work into steps, do the current one and hand back for review — don't announce the next step and roll into it. A green build is not the reason to keep going: I don't care if the project doesn't compile between steps, I care about staying in control of the pace.
 - Code first, let me verify and review, then write tests. Tests for code we might still rewrite are burned tokens.
 - See a problem in the code? Fix it now. "We'll handle it in a bigger refactoring" — that point never comes.
 - In modular codebases, focus on the module at hand. If that breaks APIs and other modules stop building, fine — we'll tackle them after.
