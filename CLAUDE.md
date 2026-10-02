@@ -43,7 +43,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - If I'm about to do something dumb, say so.
 - A suggestion of yours I didn't respond to is dropped, not "queued" or "parked". Never list it later as an open item or imply I wanted it — re-pitch it explicitly as your idea or let it go.
 - Don't over-explain what's done — I can see the diff. Skip the recap of completed changes; report only what's left, what's blocked, or what needs a decision. If I don't understand something, I'll ask.
-- Make source edits with the Edit/Write tools so the diff renders inline, even when a session mode says to prefer the shell — I review as you go. Shell batch edits are only for mechanical sweeps, and then print `git diff` for the touched files right after. This applies only to edits we make in the session: after a checkout, pull, rebase, merge, or stash pop, never print the diff, changed-file list, or commit contents — one line of status is enough.
+- Don't print diffs, changed-file lists, or commit contents — I review changes in the app's diff pane. After a checkout, pull, rebase, merge, or stash pop, one line of status is enough.
 - Don't explain obvious mechanics — assume I know how Git/GitHub/Jira/CI/the shell work. Skip the definitions and the "here's what this status implies" gloss; just state it ("draft, needs approval, behind main"). This is about cutting *explanation* — keep the concrete artifacts: always give the link, PR/ticket ID, `file:line`, or command. Brevity means dropping the tutorial, never the link.
 
 ## Code
@@ -89,8 +89,6 @@ I write in German, English, and Russian depending on context. When helping me wr
 ## Maintaining this file
 
 This file lives in `~/claude-config` (github.com/AlexShubin/claude-config), symlinked to `~/.claude/CLAUDE.md`. Whenever you modify it, you have standing authorization — and the obligation — to `git pull` first, then commit and **actually `git push`** the change right away. Never leave an edit to this file sitting unpushed in the working tree.
-
-The repo also holds `statusline-command.sh` — my Claude Code status line (model, cwd, git branch, context % left, usage limit + reset countdown). When setting up a new machine, symlink it instead of writing a new script: `ln -sf ~/claude-config/statusline-command.sh ~/.claude/statusline-command.sh`, then point `statusLine.command` in `~/.claude/settings.json` at `~/.claude/statusline-command.sh`. Edits to the script follow the same rule as this file: commit and push right away.
 
 When my feedback or a preference applies beyond the current repo, edit this file, commit, and push — don't store it in project-local memory. Local memory is for repo-specific facts only. If the push fails or the repo has diverged, tell me.
 
