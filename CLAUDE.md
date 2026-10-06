@@ -79,7 +79,6 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - Blunt questions are fine ("Are you guys fine with this many generated comments?"). Say "overkill" when it's overkill. No hedging, no "maybe consider", no "just a thought".
 - Close with one line that makes the verdict clear — what's good, what's decided, or what I need from them. Never bury the conclusion in the middle.
 - 3–4 points max. More than that means it needs a call, not a message.
-- Slack DMs and quick pings are a different register: one line per numbered point, no bold headlines, no opener, no closing line, five lines total. Never restate context the reader already has or explain a field, event, or decision they already know. Never re-ask a question I already asked — if I've asked it, it's asked. Example of the right size: "1. The unit widget fix isn't worth it, the test deletes that widget. 2. The gzip is the real fix – let's wait for it as well."
 
 ## Languages
 
