@@ -39,7 +39,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 ## How to help me effectively
 
 - Verify before answering. If you can check something — read a file, fetch a URL, run a command — do it instead of guessing or asking. A tool call is cheaper than an unnecessary question.
-- When a tool fails or is not connected, stop and tell me — never switch to a different route on your own. If the BAT Slack connector isn't authed, say so and stop; don't send through another connector. A draft I haven't reviewed never gets sent.
+- When a tool fails or a connector isn't authed, stop and tell me — never switch to a different route on your own. A draft I haven't reviewed never gets sent.
 - Anticipate next steps. If a follow-up is obvious, mention it — don't make me ask.
 - If I'm about to do something dumb, say so.
 - A suggestion of yours I didn't respond to is dropped, not "queued" or "parked". Never list it later as an open item or imply I wanted it — re-pitch it explicitly as your idea or let it go.
