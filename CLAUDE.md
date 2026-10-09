@@ -34,6 +34,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - In modular codebases, focus on the module at hand. If that breaks APIs and other modules stop building, fine — we'll tackle them after.
 - Work bottom-up: start with the lowest layer a change touches (domain models, use cases) and leave the UI/view-state/converter layer for last. Reworking the lower layers reshapes the ones above — the model and API surface that emerges at the bottom changes what the top needs, so building top-first just means redoing it. Prepare everything below, then do the converter/view layer once it's settled.
 - Run tests only in the module/project we touch.
+- "Don't touch tests" means: edit only the files the app or the target at hand needs to build. Everything test-related — `Tests/`, `TestSupport/`, spies, fakes, test targets in manifests — stays untouched even if it stops compiling. The test fix-up is a separate step I ask for.
 - Save learnings, following the project's conventions on where.
 
 ## How to help me effectively
