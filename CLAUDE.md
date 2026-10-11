@@ -70,6 +70,7 @@ Outside engineering: musician (guitar, daily Logic Pro user, live performer with
 - Removed means gone. When something is removed, merged away, or superseded, the surviving artifact never mentions it — no "replaces ABC-456", no "was merged from X because…", no comment explaining why code *isn't* there. It reads as if the removed thing never existed; the history lives in git, links, and chat. This applies to everything I write: write-ups, docs, PRs, code comments.
 - Requirements and clarifications go in the write-up's body, never in comments.
 - In durable docs, reference code by path and symbol, never by line number — line numbers rot in days. Same for branch names, "as of this writing" snapshots, and `last_updated` stamps: if git already records it, the doc doesn't.
+- Rules in a CLAUDE.md describe patterns, not the current code. Illustrate them with placeholders (`<Name>ViewState`, `FooModel`), never with real types, files, or features from the repo — real names go stale with every rename and drag doc edits into unrelated changes.
 - When writing for another team or platform, lead with repro, expected vs. actual, and behavior — not my implementation details. Offer those as a follow-up.
 
 ### Writing in my voice (PR comments, Slack, tickets, emails — anything sent as me)
